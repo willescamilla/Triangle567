@@ -3,7 +3,7 @@ import unittest
 
 from triangle import classify_triangle
 
-class test_triangle(unittest.TestCase):
+class TestTriangles(unittest.TestCase):
     """Run all tests"""
     def test_invalid_triangles(self):
         """Run test on invalid triangle with give parameters"""
